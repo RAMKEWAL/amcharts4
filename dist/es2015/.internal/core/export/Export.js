@@ -61,23 +61,10 @@ var pdfmakePromise;
  */
 function _pdfmake() {
     return tslib_1.__awaiter(this, void 0, void 0, function () {
-        var a, pdfmake, vfs_fonts, global;
         return tslib_1.__generator(this, function (_a) {
-            switch (_a.label) {
-                case 0: return [4 /*yield*/, Promise.all([
-                        import(/* webpackChunkName: "pdfmake" */ "pdfmake/build/pdfmake.js"),
-                        import(/* webpackChunkName: "pdfmake" */ "../../pdfmake/vfs_fonts")
-                    ])];
-                case 1:
-                    a = _a.sent();
-                    pdfmake = a[0];
-                    vfs_fonts = a[1];
-                    global = window;
-                    global.pdfMake = global.pdfMake || {};
-                    global.pdfMake.vfs = vfs_fonts.default;
-                    pdfmake.vfs = vfs_fonts.default;
-                    return [2 /*return*/, pdfmake];
-            }
+            return [2 /*return*/, new Promise(function (resolve, reject) {
+                    resolve(true);
+                })];
         });
     });
 }

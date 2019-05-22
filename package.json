@@ -28,7 +28,6 @@
     "css-element-queries": "^1.1.0",
     "canvg": "^1.5.3",
     "d3-force": "^2.0.1",
-    "pdfmake": "^0.1.36",
     "polylabel": "^1.0.2",
     "tslib": "^1.9.3",
     "regression": "^2.0.1",
